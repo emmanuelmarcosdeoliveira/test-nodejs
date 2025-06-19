@@ -1,0 +1,27 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "Aplicação para trabalhar com testes Automatizados com  Node.js",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "Express",
+    "Jest",
+    "SuperTest"
+  ],
+  "author": "Emmanuel Marcos de Oliveira",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "tsx": "4.19.1"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.13",
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2"
+  }
+}
