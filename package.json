@@ -5,7 +5,8 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "test:dev": " jest --watchAll"
   },
   "keywords": [
     "Express",
