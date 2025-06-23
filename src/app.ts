@@ -8,6 +8,7 @@ const products = [
 
 const app = http.createServer((request, response) => {
   if (request.method === "GET" && request.url === "/products") {
+    response.setHeader("Content-type", "application/json");
     response.end(JSON.stringify(products));
   }
 });
